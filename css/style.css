@@ -1,0 +1,173 @@
+/* body font type */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* grouping styles */
+header,
+.count {
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-image: url(../images/events-heavenly-header.jpg);
+}
+header .layer-header,
+.first-counter {
+  background-color: rgba(214, 46, 51, 0.6);
+}
+header .nav-side .close:hover,
+header .nav-side ul li .nav-link:hover {
+  color: rgba(214, 46, 51, 0.6);
+}
+.signers h4,
+header .nav-side ul li .nav-link,
+form button,
+.socialIcons a i:hover,
+.upbtn {
+  color: #fff;
+}
+header .nav-side,
+.signers p:first-of-type,
+.close,
+form button,
+.upbtn {
+  display: block;
+}
+header .nav-side .close i,
+header .nav-side ul li .nav-link,
+.socialIcons a i,
+form button {
+  transition: 0.5s;
+}
+header .nav-side .close i,
+header .open,
+.signers h4,
+.socialIcons a i {
+  cursor: pointer;
+}
+header .nav-side .close i,
+header .nav-side ul li .nav-link {
+  font-size: 1.5rem;
+}
+header .open,
+.first-counter div {
+  font-size: 2rem;
+}
+header .nav-side,
+header .open {
+  transition: 0.8s;
+}
+.socialIcons a i:hover,
+form button,
+.upbtn {
+  background-color: #d62e33;
+}
+.contact-info div a,
+form #charRemain,
+form button:hover {
+  color: #d62e33;
+}
+.socialIcons a i:hover,
+form button:hover {
+  border: 1px solid #d62e33;
+}
+.signers p,
+.upbtn {
+  display: none;
+}
+form button,
+.upbtn {
+  border: none;
+}
+
+/* header style */
+header .nav-side {
+  background-color: #414658;
+  width: 0;
+  overflow: hidden;
+}
+header .nav-side .close {
+  position: relative;
+}
+header .nav-side .close i {
+  position: absolute;
+  right: 15%;
+}
+header .nav-side ul li .nav-link {
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+.layer-header h1 {
+  font-size: 3.5rem;
+}
+
+/* details section style */
+.signers h4 {
+  background-color: #e68285;
+  padding: 10px;
+}
+.signers p {
+  background-color: #ccc;
+}
+.signers h4,
+.signers p {
+  margin-bottom: 0;
+}
+
+/* count down timer style */
+.count {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  height: 300px;
+}
+.first-counter div {
+  border: 1px solid #fff;
+  width: 20%;
+  padding: 50px 0;
+}
+
+/* contact section style */
+.contact-info div {
+  padding: 15px 0;
+}
+.contact-info div i {
+  padding-right: 10px;
+}
+.contact-info div a {
+  text-decoration: none;
+}
+.socialIcons a {
+  text-decoration: none;
+}
+.socialIcons a i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 2.5rem;
+  color: #999;
+}
+
+/* form style */
+.form-control::placeholder {
+  color: #999;
+}
+form span {
+  font-size: 1.2rem;
+}
+form button {
+  line-height: 1.5rem;
+  font-size: 0.95rem;
+}
+form button:hover {
+  background-color: #fff;
+}
+
+/* up button style */
+.upbtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  z-index: 9999;
+}
